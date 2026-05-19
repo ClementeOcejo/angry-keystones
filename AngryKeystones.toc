@@ -2,6 +2,7 @@
 ## Title: Angry Keystones
 ## Notes: Displays additional information for Mythic Keystone dungeons
 ## Author: Ermad
+## Version: v0.32.27
 ## SavedVariables: AngryKeystones_Config, AngryKeystones_Data
 ## SavedVariablesPerCharacter: AngryKeystones_CharacterConfig
 ## X-Packaged-Version: @project-version@
