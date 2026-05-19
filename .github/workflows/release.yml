@@ -19,8 +19,7 @@ jobs:
 
       - name: Package and Ship Release
         uses: BigWigsMods/packager@v2
-        with:
-          # Explicitly tell the script that YOUR fork is the destination slug
-          slug: ClementeOcejo/angry-keystones
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Force the deployment engine to recognize your fork as the primary slug
+          CF_WOWI_G_SLUG: ClementeOcejo/angry-keystones
