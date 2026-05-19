@@ -20,6 +20,4 @@ jobs:
       - name: Package and Ship Release
         uses: BigWigsMods/packager@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Force the deployment engine to recognize your fork as the primary slug
-          CF_WOWI_G_SLUG: ClementeOcejo/angry-keystones
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
